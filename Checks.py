@@ -19,7 +19,7 @@ def CheckDatabase():
     print("Checking Database Requirements..")
 
     db = con.connect(host="localhost", user="root",
-                     database="", password="bannu")
+                     database="railwaymgmt", password="bannu")
     cur = db.cursor()
     result = None
 
